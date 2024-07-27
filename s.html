@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOOK INFO</title>
+    <link rel="stylesheet" href="k.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+   </head>
+<body>
+    <div class="navbar">
+    <h1> BOOK INFO</h1>
+    </div>
+    <div class="cont">
+        <div class="bk-cont">
+            <h2> The power of your subconcious mind</h2>
+            <h5> Joshep Murphy</h5>
+            <p> " man who become the way he thinks whole day a long"</p>
+            <button onclick="deletebk(event)"> Delete</button>
+        </div>
+
+    </div>
+    <div class="pop-ovr"></div>
+    <div class="pop-box">
+        <h2> Add BOOK</h2>
+        <form action="">
+            <input type="text" placeholder="TITLE" id="tit-inp">
+            <input type="text" placeholder="AUTHOR" id="aut-inp">
+            <textarea placeholder="Discription" id="des-inp"></textarea>
+            <button id="add-bk">ADD</button>
+            <button id="cancel-pop">cancel</button>
+        </form>
+    </div>
+    <button class="add-bt" id="bt-popup">+</button>
+    
+    <script src="j.js"></script>
+</body>
+</html>
